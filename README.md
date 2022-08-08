@@ -1,3 +1,4 @@
 # MusicLoopSmash
 
-![Simulator Screen Shot - iPhone 13 Pro - 2022-08-08 at 01 00 33](https://user-images.githubusercontent.com/25846938/183349612-11f3237a-6fa2-4ca2-92e2-99d14de8ab23.png)
+<img width="298" alt="image" src="https://user-images.githubusercontent.com/25846938/183349812-107d3f1d-ddcf-431e-9949-de0359f682fe.png">
+
