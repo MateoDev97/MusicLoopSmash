@@ -244,7 +244,7 @@ extension SmashPlayerViewController: SmashPlayerViewModelDelegate {
 extension SmashPlayerViewController {
     private func setUpConstraints() {
         NSLayoutConstraint.activate([
-            songImageView.topAnchor.constraint(equalTo: view.topAnchor, constant: 20),
+            songImageView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 40),
             songImageView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
             songImageView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
             songImageView.heightAnchor.constraint(equalToConstant: 250),
