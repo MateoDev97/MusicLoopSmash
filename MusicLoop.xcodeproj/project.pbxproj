@@ -20,7 +20,6 @@
 		49DA9F0F289C855E005D5A88 /* snowPatrolChasingCars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49DA9F0E289C855E005D5A88 /* snowPatrolChasingCars.mp3 */; };
 		49DA9F12289C890D005D5A88 /* SmashPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA9F11289C890D005D5A88 /* SmashPlayerViewModel.swift */; };
 		49DA9F14289C8925005D5A88 /* SmashPlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DA9F13289C8925005D5A88 /* SmashPlayerModel.swift */; };
-		49DA9F17289C8E57005D5A88 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 49DA9F16289C8E57005D5A88 /* Alamofire */; };
 		49DA9F1A289C8E66005D5A88 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 49DA9F19289C8E66005D5A88 /* AlamofireImage */; };
 /* End PBXBuildFile section */
 
@@ -66,7 +65,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49DA9F17289C8E57005D5A88 /* Alamofire in Frameworks */,
 				49DA9F1A289C8E66005D5A88 /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,7 +190,6 @@
 			);
 			name = MusicLoop;
 			packageProductDependencies = (
-				49DA9F16289C8E57005D5A88 /* Alamofire */,
 				49DA9F19289C8E66005D5A88 /* AlamofireImage */,
 			);
 			productName = MusicLoop;
@@ -268,7 +265,6 @@
 			);
 			mainGroup = 49DA9ED1289C8401005D5A88;
 			packageReferences = (
-				49DA9F15289C8E57005D5A88 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				49DA9F18289C8E66005D5A88 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
 			);
 			productRefGroup = 49DA9EDB289C8401005D5A88 /* Products */;
@@ -658,14 +654,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		49DA9F15289C8E57005D5A88 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
 		49DA9F18289C8E66005D5A88 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
@@ -677,11 +665,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		49DA9F16289C8E57005D5A88 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 49DA9F15289C8E57005D5A88 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
 		49DA9F19289C8E66005D5A88 /* AlamofireImage */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 49DA9F18289C8E66005D5A88 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
