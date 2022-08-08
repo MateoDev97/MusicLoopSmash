@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "icon-loop.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
